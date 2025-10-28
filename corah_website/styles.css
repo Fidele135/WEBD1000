@@ -17,3 +17,9 @@
     border-style: solid;
     justify-content: center;
 }
+
+@media (max-width: 7688) {
+    .header-container {
+        justify-content: center;
+    }
+}
