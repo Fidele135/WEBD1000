@@ -2,12 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-style: solid;
+    flex-wrap: wrap;
 }
 
 .logo-container {
     display: inline-block;
+    border-style: solid;
+    justify-content: center;
 }
 
 .nav-container {
     display: inline-block;
+    border-style: solid;
+    justify-content: center;
 }
