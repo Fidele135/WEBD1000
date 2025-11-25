@@ -14,17 +14,19 @@
         <!-- A Block Element-->
         <div class="logo-container">
             <!--Inline-Block -->
-            <img src="images/logo-image-01.svg" alt="Corah Fingerprint Logo">
-            <img src="images/corah-brand-wordmark-dark.svg" alt="Centre for rural aging and health">
+            <a href="index.html" aria-label="Corah homepage">
+                <img src="images/logo-image-01.svg" alt="Corah Fingerprint Logo">
+                <img src="images/corah-brand-wordmark-dark.svg" alt="Centre for rural aging and health">
+            </a>
         </div>
         <!-- A Block Element-->
-        <nav class="nav-container">
-            <!--Inline-Block -->
-            <button class="nav-button">Home</button>
-            <button class="nav-button">About</button>
-            <button class="nav-button">Event</button>
-            <button class="nav-button">Register</button>
-            <button class="nav-button">Login</button>
+        <nav class="nav-container" aria-label="Main navigation">
+            <!-- Use anchor links so navigation works without JS -->
+            <a class="nav-button" href="home.html">Home</a>
+            <a class="nav-button" href="about.html">About</a>
+            <a class="nav-button" href="event.html">Event</a>
+            <a class="nav-button" href="register.html">Register</a>
+            <a class="nav-button" href="login.html">Login</a>
         </nav>
     </header>
     <main></main>
